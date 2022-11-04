@@ -5,9 +5,11 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-  <link rel="stylesheet" href="content/fontawesome-free-6.1.1-web/css/all.css">
+  <link rel="stylesheet" href="../../content/fontawesome-free-6.1.1-web/css/all.css">
     
-    <link rel="stylesheet" href="content/css/footerss.css">
+    <link rel="stylesheet" href="../../content/css/footerss.css">
+    <link rel="stylesheet" href="../../content/css/slidess.css">
+
 
 </head>
 <body>

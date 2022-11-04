@@ -1,0 +1,104 @@
+<head>
+
+    <style>
+        .tech-slideshow {
+            height: 500px;
+            /* max-width: 800px; */
+            /* margin: 0 auto; */
+        
+            
+            position: relative;
+            overflow: hidden;
+            transform: translate3d(0, 0, 0);
+        }
+        .text{
+            position: absolute;
+            top: 90%;
+            color: aliceblue;
+            padding-left: 20px;
+            font-size: 25px;
+        }
+        .mover{
+            display: flex;
+            height: 500px;
+
+        }
+        .item img{
+            height: 500px;
+
+        }
+        .tech-slideshow>div {
+            height: 200px;
+            width: 2526px;
+            /* background: url(https://s3-us-west-2.amazonaws.com/s.cdpn.io/3/collage.jpg); */
+            position: absolute;
+            top: 0;
+            left: 0;
+            height: 100%;
+            transform: translate3d(0, 0, 0);
+        }
+
+        .tech-slideshow .mover {
+            animation: moveSlideshow 4s linear infinite alternate;
+            /* animation: moveSlideshows 5s linear infinite; */
+
+        }
+
+        @keyframes moveSlideshow {
+            100% {
+                transform: translateX(9%);
+           
+            }
+          
+        }
+        @keyframes moveSlideshows {
+            100% {
+                transform: translateX(20%);
+               
+            }
+        }
+    </style> 
+</head>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="tech-slideshow">
+        <div class="mover">
+            <div class="item">
+                <div class="avatar"><img src="Chopper.png"></div>
+                <div class="text">sale 30%</div>
+            </div>
+            
+          
+            
+        
+        
+            <div class="item">
+                <img src="Usopp.png" class="avatar">
+                <div class="text">sale 30%</div>
+                
+        </div>
+        <div class="item">
+            <div class="avatar"><img src="Sanji.png" ></div>
+            
+            <div class="text">sale 40%</div>
+        </div>
+        <div class="item">
+            <img src="Usopp.png" class="avatar">
+            <div class="text">sale 30%</div>
+        </div>
+        
+    </div>
+    </div>
+
+    
+    
+</body>
+</html>
