@@ -45,7 +45,7 @@
       
             <div class="flex-row-sp">
                 <div class="row-sp">      
-                    <a href="../hanghoa/chitietsp.php?ma_hh=<?=$hh['ma_hh']?>" class="sp">
+                    <a href="../ct_san_pham/chi-tiet.php?ma_hh=<?=$hh['ma_hh']?>" class="sp">
                     <img src="<?=$img_path?><?php echo $hh['hinh']?>" height= "250" width="100%" >
                     <h5><?=$hh['ten_hh']?> </h5>
                     

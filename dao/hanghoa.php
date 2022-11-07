@@ -15,6 +15,7 @@ function load_sp_db(){
    // hiện sản phẩm theo loại
    function sp_one($ma_loai){
       $sql = "SELECT  * FROM hang_hoa WHERE ma_loai=".$ma_loai;
+     
     return    pdo_query($sql);
       
    }
@@ -69,7 +70,7 @@ function phan_trangsp(){
 
 //  tăng lượt xem khi nhấn vào 1 sản phẩm
    function tang_lx($ma_hh){
-      $sql = "UPDATE hanghoa SET luot_xem= luot_xem +1 WHERE ma_hh = $ma_hh";
+      $sql = "UPDATE hang_hoa SET so_luot_xem= so_luot_xem +1 WHERE ma_hh = $ma_hh";
       pdo_execute($sql);
    }
    
